@@ -5,10 +5,12 @@ abstract class Routes {
   Routes._();
   static const HOME = _Paths.HOME;
   static const LEAVE_PERMIT = _Paths.LEAVE_PERMIT;
+  static const SUBMIT_LEAVE_PERMIT = _Paths.SUBMIT_LEAVE_PERMIT;
 }
 
 abstract class _Paths {
   _Paths._();
   static const HOME = '/home';
   static const LEAVE_PERMIT = '/leave-permit';
+  static const SUBMIT_LEAVE_PERMIT = '/submit-leave-permit';
 }

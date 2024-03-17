@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
-import 'package:raconn_app/app/modules/leavePermit/views/leave_permit_view.dart';
+// import 'package:raconn_app/app/modules/leavePermit/views/leave_permit_view.dart';
+import 'package:raconn_app/app/modules/leavePermit/views/submit_leave_permit.dart';
 
 import '../controllers/home_controller.dart';
 
@@ -17,7 +18,7 @@ class HomeView extends GetView<HomeController> {
       body: Center(
         child: TextButton(
           onPressed: () {
-            Get.to(LeavePermitView());
+            Get.to(SubmitLeavePermitView());
           },
           child: Text("Leave Permit"),
         ),

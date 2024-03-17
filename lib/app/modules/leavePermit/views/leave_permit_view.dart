@@ -5,7 +5,7 @@ import 'package:get/get.dart';
 
 import '../controllers/leave_permit_controller.dart';
 
-import 'package:intl/intl.dart';
+// import 'package:intl/intl.dart';
 
 class LeavePermitView extends GetView<LeavePermitController> {
   const LeavePermitView({Key? key}) : super(key: key);
@@ -125,5 +125,3 @@ class LeavePermitView extends GetView<LeavePermitController> {
     );
   }
 }
-
-

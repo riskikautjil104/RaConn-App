@@ -1,4 +1,5 @@
 import 'package:get/get.dart';
+import 'package:raconn_app/app/modules/leavePermit/views/submit_leave_permit.dart';
 
 import '../modules/home/bindings/home_binding.dart';
 import '../modules/home/views/home_view.dart';
@@ -21,6 +22,11 @@ class AppPages {
     GetPage(
       name: _Paths.LEAVE_PERMIT,
       page: () => const LeavePermitView(),
+      binding: LeavePermitBinding(),
+    ),
+    GetPage(
+      name: _Paths.SUBMIT_LEAVE_PERMIT,
+      page: () => SubmitLeavePermitView(),
       binding: LeavePermitBinding(),
     ),
   ];
